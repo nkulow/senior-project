@@ -1,0 +1,73 @@
+.card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center;
+}
+.card-product .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+.card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.label-rating { margin-right:10px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-product .price-old {
+    color: #999;
+}
+footer a{
+    color: rgb(144,144,144);
+} 
+footer a:visited{
+    color: rgb(144,144,144);
+}
+footer a:hover{
+    color: blue;
+}
+footer h5{
+    color: rgb(0,100,161);
+}
+.nav-outdoors a{
+    font-size: 170% !important;
+    color: rgb(0,100,161) !important;
+    font-weight: 250;
+}
+.nav-outdoors a:visited{
+    color: rgb(0,100,161) !important;
+}
+.nav-outdoors a:hover{
+    color: rgb(144,144,144) !important;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: rgb(0,100,161); 
+} 
+
+.custom-nav-link a{
+    color: rgb(144,144,144) !important;
+    font-size: 120%;
+    font-weight: 250;
+}
+.custom-nav-link a:visited{
+    color: rgb(144,144,144) !important;
+}
+.custom-nav-link a:hover{
+    color:  rgb(0,100,161)!important;
+    text-decoration: overline !important;
+
+}

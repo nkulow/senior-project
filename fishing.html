@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="stylesp.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<title>Fishing</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<div class="navbar navbar-header">
+					<a class="navbar-brand nav-link active" href="index.html">Outdoors</a>
+					<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+						<span class="navbar-toggler-icon"></span>
+			    </button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<div class="navbar-nav">
+						<ul class="nav navbar-nav">
+							<li>
+								<a class="nav-item nav-link" href="fishing.html">Fishing</a>
+							</li>
+							<li>
+								<a class="nav-item nav-link" href="boating.html">Boating</a>
+							</li>
+							<li>
+								<a class="nav-item nav-link" href="camping.html">Camping</a>
+							</li>
+							<li>
+								<a class="nav-item nav-link" href="hunting.html">Hunting</a>
+							</li>
+							<li>
+								<a class="nav-item nav-link" href="watersports.html">Watersports</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="navbar-nav form-inline my-2 my-lg-0">
+					<ul class="nav navbar-nav">
+						<li>
+							<a class="nav-item nav-link" href=""><span class="fas fa-shopping-cart fa-lg"></span></a>
+						</li>
+						<!-- drop down menu for sign in/create account -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          				<span class="fas fa-user fa-lg">
+		          			</a>
+		          			<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+		          				<a class="dropdown-item" href="sign-in.html">Sign In</a>
+		          				<a class="dropdown-item" href="create-account.html">Create an Account</a>
+		          			</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</header>
+
+	<br><br>
+	
+	<div> <!-- product cards with 3 in each row -->
+		<div class="row">
+			<div class="col-md-4">
+				<figure class="card card-product">
+					<div class="img-wrap"><img src="images/strikekingjerkbait.jpg"></div>
+					<figcaption class="info-wrap">
+						<h4 class="title">Strike King Jerk Bait</h4>
+						<p class="desc">Bait the rolls and wiggles with lifelike eyes</p>
+					</figcaption>
+					<div class="bottom-wrap">
+						<!-- <a href="" class="btn btn-sm btn-primary float-right">Add to cart</a>	 -->
+						<form style="float: right;" onclick="myFunction()" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="F498NLD9JEEUL">
+							<input type="submit" value="Add to Cart" class="btn btn-sm btn-primary float-right" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+						<div class="price-wrap h5">
+							<span class="price-new">$7.99</span> <del class="price-old">$9.99</del>
+						</div> <!-- price-wrap.// -->
+					</div> <!-- bottom-wrap.// -->
+				</figure>
+			</div> <!-- col // -->
+			<div class="col-md-4">
+				<figure class="card card-product">
+					<div class="img-wrap"><img src="images/bassprospeedshad.jpg"> </div>
+					<figcaption class="info-wrap">
+						<h4 class="title">Bass Pro Speed Shad</h4>
+						<p class="desc">Some small description goes here</p>
+					</figcaption>
+					<div class="bottom-wrap">
+						<!-- <a href="" class="btn btn-sm btn-primary float-right">Add to cart</a>	 -->
+						<form style="float: right;" onclick="myFunction()" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="CHFETECGCSBYQ">
+							<input type="submit" value="Add to Cart" class="btn btn-sm btn-primary float-right" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+						<div class="price-wrap h5">
+							<span class="price-new">$3.99</span> <del class="price-old">$4.99</del>
+						</div> <!-- price-wrap.// -->
+					</div> <!-- bottom-wrap.// -->
+				</figure>
+			</div> <!-- col // -->
+			<div class="col-md-4">
+				<figure class="card card-product">
+					<div class="img-wrap"><img src="images/garciarevocastingrod.jpg"></div>
+					<figcaption class="info-wrap">
+						<h4 class="title">Garcia Revo Casting Reel</h4>
+						<p class="desc">Some small description goes here</p>
+					</figcaption>
+					<div class="bottom-wrap">
+						<!-- <a href="" class="btn btn-sm btn-primary float-right">Add to cart</a>	 -->
+						<form style="float: right;" onclick="myFunction()" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="3TEZNAWPUL2ZJ">
+							<input type="submit" value="Add to Cart" class="btn btn-sm btn-primary float-right" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+						<div class="price-wrap h5">
+							<span class="price-new">$128.00</span> <del class="price-old">$160.00</del>
+						</div> <!-- price-wrap.// -->
+					</div> <!-- bottom-wrap.// -->
+				</figure>
+			</div> <!-- col // -->
+		</div> <!-- row.// -->
+	</div>
+	<div> <!-- product cards with 3 in each row -->
+		<div class="row">
+			<div class="col-md-4">
+				<figure class="card card-product">
+					<div class="img-wrap"><img src="images/hyperbraidfishingline.jpg"></div>
+					<figcaption class="info-wrap">
+						<h4 class="title">HyperBraid Fishing Line</h4>
+						<p class="desc">Description</p>
+					</figcaption>
+					<div class="bottom-wrap">
+						<!-- <a href="" class="btn btn-sm btn-primary float-right">Add to cart</a>	 -->
+						<form style="float: right;" onclick="myFunction()" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="6L5T6DH3CEJL8">
+							<input type="submit" value="Add to Cart" class="btn btn-sm btn-primary float-right" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+						<div class="price-wrap h5">
+							<span class="price-new">$15.98</span> <del class="price-old">$19.97</del>
+						</div> <!-- price-wrap.// -->
+					</div> <!-- bottom-wrap.// -->
+				</figure>
+			</div> <!-- col // -->
+			<div class="col-md-4">
+				<figure class="card card-product">
+					<div class="img-wrap"><img src="images/tacklestation.jpg"> </div>
+					<figcaption class="info-wrap">
+						<h4 class="title">Tackle Station</h4>
+						<p class="desc">Some small description goes here</p>
+					</figcaption>
+					<div class="bottom-wrap">
+						<!-- <a href="" class="btn btn-sm btn-primary float-right">Add to cart</a>	 -->
+						<form style="float: right;" onclick="myFunction()" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="UC9F7D64A49UN">
+							<input type="submit" value="Add to Cart" class="btn btn-sm btn-primary float-right" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+
+						<div class="price-wrap h5">
+							<span class="price-new">$47.99</span> <del class="price-old">$59.99</del>
+						</div> <!-- price-wrap.// -->
+					</div> <!-- bottom-wrap.// -->
+				</figure>
+			</div> <!-- col // -->
+			<div class="col-md-4">
+				
+			</div> <!-- col // -->
+		</div> <!-- row.// -->
+	</div>
+
+<!-- Script to notify user they have added item to cart -->
+	<script>
+		function myFunction() {
+  			alert("Added to Cart");
+		}
+	</script>
+
+
+
+
+
+</body>
+</html>

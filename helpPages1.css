@@ -1,0 +1,56 @@
+#leftCol {
+	background-color: rgb(0,100,161);
+	padding-bottom: 50%;
+}
+#rightCol{
+	background-color: rgb(0,100,161);
+}
+.contactInfo{
+	padding: 50px;
+}
+.fa-phone, .fa-clock, .fa-envelope{
+	color: rgb(0,100,161);
+}
+
+footer a{
+	color: rgb(144,144,144);
+} 
+footer a:visited{
+	color: rgb(144,144,144);
+}
+footer a:hover{
+	color: blue;
+}
+footer h5{
+	color: rgb(0,100,161);
+}
+.nav-outdoors a{
+	font-size: 170% !important;
+	color: rgb(0,100,161) !important;
+	font-weight: 250;
+}
+.nav-outdoors a:visited{
+	color: rgb(0,100,161) !important;
+}
+.nav-outdoors a:hover{
+	color: rgb(144,144,144) !important;
+}
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: rgb(0,100,161); 
+} 
+
+.custom-nav-link a{
+	color: rgb(144,144,144) !important;
+	font-size: 120%;
+	font-weight: 250;
+}
+.custom-nav-link a:visited{
+	color: rgb(144,144,144) !important;
+}
+.custom-nav-link a:hover{
+	color: 	rgb(0,100,161)!important;
+	text-decoration: overline !important;
+
+}
